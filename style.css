@@ -1,0 +1,90 @@
+body {
+    background-image: url("684019.jpg");
+    color: #00fbff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  label,
+  textarea,
+  button {
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 50%;
+    height: 150px;
+    font-size: 20px;
+    padding: 10px;
+    resize: none;
+    background-color: #000000;
+    color: #fff700;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #e100ff;
+  }
+  
+  input[type="number"] 
+  {
+    color: #fff700;
+  }
+  .password-strength-bar {
+    width: 10%;
+    height: 20px;
+    margin-top: 5px;
+    background-color: #f1f1f1;
+  }
+
+  .password-strength {
+    width: 5%;
+    height: 20px;
+    margin-top: 5px;
+    background-color: #f1f1f1;
+  }
+  
+  .bar {
+    width: 0%;
+    height: 100%;
+    background-color: red;
+    transition: width 0.3s ease;
+  }
+  
+  .weak {
+    background-color: red;
+  }
+  
+  .fair {
+    background-color: orange;
+  }
+  
+  .good {
+    background-color: yellowgreen;
+  }
+  
+  .strong {
+    background-color: green;
+  }
+  
+  .very-strong {
+    background-color: darkgreen;
+  }
+
+  .box {
+    border: 1px solid rgb(171, 13, 13);
+    background-color: aqua;
+    width: 10%;
+    height: auto;
+  }
+  
+  

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Password Generator</h1>
+    <div class="container">
+      <label for="length">Password Length:</label>
+      <input type="number" style="background-color: black;" id="length" min="8" max="64">
+       <button id="generate" <button style= "background-color:cyan;">Generate</button>
+      <textarea id="password" readonly></textarea>
+      <div class="password-strength-bar">
+        <div class="bar"></div>
+      </div>
+      <div class="box">
+        <p><span id="password-strength"></span></p>
+      </div>      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
